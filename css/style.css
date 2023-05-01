@@ -55,6 +55,9 @@ nav {
     height: 100%;
     
 }
+.nav-li {
+    font-size: .8em;
+}
 .nav-li, .guides-container {
     height: 100%;
     width:fit-content; 
@@ -84,10 +87,12 @@ nav {
     padding: 0px var(--default-padding);
 
 }
-
-.para {
+p {
     margin-top: 1em;
     margin-bottom: 1em;
+}
+.para {
+    
     font-weight: 300px;
     color: rgb(70, 70, 70);
     line-height: 2.5;
@@ -127,5 +132,16 @@ h6 {
     margin-top: 2.33em;
     margin-bottom: 2.33em;
     font-weight: bold;
+
+}
+
+
+@media screen and (max-width:1024px) {
+
+}
+
+
+
+@media screen and (max-width:768px) {
 
 }
