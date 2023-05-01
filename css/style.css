@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;    
+
+}
+:root {
+    --body-color: #f1f1f1;
+    --p-color: #fff;
+    --shadow-color: rgba(66, 66, 67, .2);
+    --l-black: rgb(32, 32, 32);
+    ---dropdown-color: #f7f7f7;
+    --l-gray-color: #dbdbdb;
+    --default-padding: 5rem;
+}
+
+body {
+    /* Desktop font size */
+    font-size: 1.8rem;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: var(--body-color);
+}
+
+#wrapper {  /* Contains everything*/
+    /* background-color: rebeccapurple; */
+    overflow-x: hidden;
+
+}
+
+header {
+}
+
+nav {
+    padding: 0px var(--default-padding);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    /* background-color: rgb(60, 75, 90); */
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rebeccapurple; */
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    
+}
+.nav-li, .guides-container {
+    height: 100%;
+    width:fit-content; 
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-a {
+    color: rgb(31, 31, 31);
+    text-decoration: none;
+    display: block;
+    padding: .8rem;
+    /* height: 100%; */
+    width: 100%;
+    /* background-color: rgb(201, 196, 206); */
+    
+}
+
+#content-main {
+    padding: var(--default-padding);
+
+}
+
+
+#footer {
+    padding: 0px var(--default-padding);
+
+}
+
+.para {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 300px;
+    color: rgb(70, 70, 70);
+    line-height: 2.5;
+}
+
+h1 {
+    font-size: 2em;
+    margin-top: .67em;
+    margin-bottom: .67em;
+}
+h2 {
+    font-size: 1.5em;
+    margin-top: .83em;
+    margin-bottom: .83em;
+    font-weight: bold;
+}
+h3 {
+    font-size: 1.17em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1em;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+    font-weight: bold;
+}
+h5 {
+    font-size: .83em;
+    margin-top: 1.67em;
+    margin-bottom: 1.67em;
+    font-weight: bold;
+}
+h6 {
+    font-size: .67em;
+    margin-top: 2.33em;
+    margin-bottom: 2.33em;
+    font-weight: bold;
+
+}
